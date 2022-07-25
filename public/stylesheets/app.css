@@ -1,0 +1,174 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.color-primary {
+    background-color: #0077B6;
+}
+
+.color-secondary {
+    background-color: #20a6c1;
+}
+
+.color-tertiary {
+    background-color: #CAF0F8;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#heart-image {
+    border: 5px solid #CAF0F8;
+    border-radius: 6%; 
+}
+
+#explanation-container {
+    color: #CAF0F8;
+}
+
+#content-container {
+    color: #03045E;
+    border: 8px solid #CAF0F8;
+    border-radius: 6%; 
+}
+
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+#about {
+    color: rgb(0,51,102);
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+#key-club-logo {
+    height: 4em;
+}
+
+#navLinks {
+    font-size: 1.4em;
+}
+
+#mainNavbar {
+    background-color: #03045E;
+}
+
+#programsLink, #whyLink, #initiativesLink, #officersLink, #contactLink, #moreLink {
+    color: rgba(202, 240, 248, 0.7);
+}
+
+#programsLink:hover, #whyLink:hover, #initiativesLink:hover, #officersLink:hover, #contactLink:hover, #moreLink:hover {
+    color: rgba(202, 240, 248, 1);
+}
+
+#contactForm {
+    background-color: rgb(247,250,252);
+    font-size: 1.2em;
+    color: #03045E;
+}
+
+#tutoring-form-body {
+    background-color: rgb(247,250,252);
+}
+
+#form-container {
+    background-color: rgb(255, 255, 255);
+}
+
+#submitButton {
+    border: none;
+}
+
+#footerText {
+    color: #90E0EF;
+}
+
+#about {
+    background-color: #CAF0F8;
+}
+
+#container-heading, #sign-up {
+    font-size: 4em;
+}
+
+#container-text {
+    color: #264653;
+    font-size: 1.7em;
+}
+
+#contact-us {
+    color: rgb(0, 119, 182);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#content-container {
+    font-weight: 500;
+}
+
+#sign-up-text {
+    color: rgb(255, 255, 255);
+}
+
+#sign-up-text:hover {
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.nums, .emphasize {
+    color: rgb(0,51,102);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h3 {
+    
+    color: rgb(0, 119, 182);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+p {
+    color: rgb(0,51,102);
+    font-size: 1.3em;
+}
+
+#tutoring-image {
+    width: 30em;
+}
+
+@media (max-width: 768px) {  
+    #mission-statement p {
+        font-size: 1em;
+    } 
+
+    #explanation-container {
+        background-color: #CAF0F8;
+    } 
+    #content-container {
+        border: none;
+    }
+    #container-text {
+        text-align: start;
+    }
+    #signupFormTitle {
+        font-size: 2em;
+    }
+};
+
+
+

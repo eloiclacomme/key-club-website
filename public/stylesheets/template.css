@@ -1,0 +1,46 @@
+#content-container {
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.nums, .emphasize {
+    color: rgb(0,51,102);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h3 {
+    
+    color: rgb(0, 119, 182);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+p {
+    color: rgb(0,51,102);
+    font-size: 1.3em;
+}
+
+#tutoring-image {
+    width: 30em;
+}
+
+@media (max-width: 768px) {  
+    #explanation-container {
+        background-color: #CAF0F8;
+    } 
+    #content-container {
+        border: none;
+    }
+    #container-text {
+        text-align: start;
+    }
+    #signupFormTitle {
+        font-size: 2em;
+    }
+};
+
+
