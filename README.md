@@ -1,2 +1,2 @@
 # key-club-website
-Website for Eastchester District Key Club
+Website for the Eastchester District Key Club. 
